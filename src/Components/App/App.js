@@ -73,7 +73,7 @@ Spotify.getAccessToken();
     return(
       <div>
 
-        <h1>Ja<span className="highlight">mmm</span>ing</h1>
+        <h1>Jamm<span className="highlight">Nic</span></h1>
 
         <div className="App">
 

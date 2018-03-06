@@ -15,9 +15,9 @@ constructor(props){
     return(
       <div className="Playlist">
 
-          <input defaultValue={"New Playlist"} onChange={this.handleNameChange}/>
+          <input  className='input-playlist' placeholder='PlayList Name *' onChange={this.handleNameChange}/>
           <TrackList tracks={this.props.playlistTracks} onRemove={this.props.onRemove}/>
-          <a className="Playlist-save" onClick={this.props.onSave}>SAVE TO SPOTIFY</a>
+          <a className="Playlist-save" onClick={this.props.onSave}><img src={require('./save.png')}/></a>
 
       </div>
     );
